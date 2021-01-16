@@ -14,6 +14,7 @@
 
 ## Linear Regression to Predict MPG
 ![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/linear_reg.PNG "Linear_Reg")
+
 -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 	In the summary output, each Pr(>|+|) value represents the probability that each cofficient contributes a random amount of variance to the linear model. According to results, vehicle length and ground clearance (as well as intercept) are statistically to provide non-random amount of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on mpg.
