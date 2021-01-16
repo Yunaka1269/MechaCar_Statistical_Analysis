@@ -28,6 +28,9 @@
 	When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model. The lack of significant variables is evidence of overfitting failing to generalize and predict future data correctly. 
 
 ## Summary Statistics on Suspension Coils
+![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/total_summary.PNG "Total_summary")
+![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/lot_summary.PNG "Lot_summary")
+
 -The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 	Current manufacturing data for all manufacturing total meets the design specification, however, Lot3 variance exceeds 100 pounds per square inch therefore Lot3 fails to meet the specification. 
