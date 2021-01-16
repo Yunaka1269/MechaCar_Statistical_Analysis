@@ -29,6 +29,7 @@
 
 ## Summary Statistics on Suspension Coils
 ![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/total_summary.PNG "Total_summary")
+
 ![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/lot_summary.PNG "Lot_summary")
 
 -The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -36,6 +37,14 @@
 	Current manufacturing data for all manufacturing total meets the design specification, however, Lot3 variance exceeds 100 pounds per square inch therefore Lot3 fails to meet the specification. 
 
 ## T-Tests on Suspension Coils
+![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/t_test_all_manufacturing.png "T_Test_All_Manufacturing")
+
+![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/t_test_lot1.png "T_Test_Lot1")
+
+![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/t_test_lot2.png "T_Test_Lot2")
+
+![alt text](https://github.com/Yunaka1269/MechaCar_Statistical_Analysis/blob/main/pic/t_test_lot3.PNG "T_Test_Lot3")
+
 -briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 	Assuming our significance level was the common 0.05 percent, p-value is above significance level for across all manufacturing lots and individual Lot1 and Lot2. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. However, p-value is below significance level for Lot3 and is statistically different.
